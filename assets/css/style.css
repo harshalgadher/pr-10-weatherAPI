@@ -1,0 +1,70 @@
+body {
+  background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0') no-repeat center center/cover;
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.weather-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  color: #fff;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  max-width: 600px;
+  width: 100%;
+}
+
+.temp-main {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.desc {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.temp-range span {
+  background: rgba(255,255,255,0.15);
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+}
+
+.forecast-day {
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.forecast-day strong {
+  display: block;
+  font-weight: 500;
+}
+
+.line-graph {
+  margin-top: 1.5rem;
+  height: 80px;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Weather_icon_-_line_chart.svg/1920px-Weather_icon_-_line_chart.svg.png') no-repeat center center/contain;
+  opacity: 0.2;
+}
+.ct-input:focus{
+  color: black;
+  border: 2px solid white;
+  background-color: transparent;
+  box-shadow: 0px 0px .5px 1px rgb(105, 105, 105);
+}
+.ct-input{
+  border-radius: 7px;
+  background: transparent;
+  border: 2px solid whitesmoke;
+}
+.btn:active{
+  transition: .2s all ease;
+  transform: translateY(4px);
+}
